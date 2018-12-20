@@ -1,8 +1,6 @@
 server:
   port: 10010
 spring:
-  application:
-    name: auth
   datasource:
     url: jdbc:mysql://192.168.53.244:3306/epp_manager?useSSL=false&useUnicode=true&characterEncoding=UTF-8
     driver-class-name: com.mysql.jdbc.Driver
@@ -16,7 +14,7 @@ spring:
     show-sql: true
     open-in-view: false
   redis:
-#    host: 192.168.20.172
+    host: 192.168.20.172
     port: 6379
     password: foobared
     jedis:
