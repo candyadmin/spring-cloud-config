@@ -13,6 +13,8 @@ spring:
       ddl-auto: update
     show-sql: true
     open-in-view: false
+  session:
+    store-type: none
   redis:
     host: 192.168.20.172
     port: 6379
